@@ -1,0 +1,6 @@
+# Normalise line endings so Windows and Mac users don't fight over every line
+* text=auto
+*.java text eol=lf
+*.md text eol=lf
+*.csv text eol=lf
+*.ps1 text eol=crlf

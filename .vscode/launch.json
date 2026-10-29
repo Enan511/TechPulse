@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Run TechPulse",
+      "request": "launch",
+      "mainClass": "ca.uwindsor.techpulse.TechPulseApp",
+      "projectName": "techpulse",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    }
+  ]
+}

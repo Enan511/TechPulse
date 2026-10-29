@@ -1,0 +1,24 @@
+# Build output
+target/
+bin/
+out/
+*.class
+
+# IDE files (VS Code settings in .vscode/ ARE shared on purpose)
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+.factorypath
+
+# Raw HTML saved by crawlers (can be large; re-create by running the crawler)
+data/raw/*
+!data/raw/.gitkeep
+
+# Files made for Brightspace submission (scripts/make-txt-copies.ps1)
+submission/
+
+# OS junk
+.DS_Store
+Thumbs.db
